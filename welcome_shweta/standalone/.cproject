@@ -19,7 +19,7 @@
 					<folderInfo id="com.crt.advproject.config.exe.debug.1395496206." name="/" resourcePath="">
 						<toolChain id="com.crt.advproject.toolchain.exe.debug.533093958" name="NXP MCU Tools" superClass="com.crt.advproject.toolchain.exe.debug">
 							<targetPlatform binaryParser="org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.GNU_ELF" id="com.crt.advproject.platform.exe.debug.1273386385" name="ARM-based MCU (Debug)" superClass="com.crt.advproject.platform.exe.debug"/>
-							<builder autoBuildTarget="all" buildPath="${workspace_loc:/smart_lock_rt117f}/Debug" cleanBuildTarget="clean" enableAutoBuild="false" enableCleanBuild="true" enabledIncrementalBuild="true" id="com.crt.advproject.builder.exe.debug.1578879284" incrementalBuildTarget="all" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.crt.advproject.builder.exe.debug"/>
+							<builder autoBuildTarget="all" buildPath="${workspace_loc:/sln_vizn3d_iot_smart_lock}/Debug" cleanBuildTarget="clean" enableAutoBuild="false" enableCleanBuild="true" enabledIncrementalBuild="true" id="com.crt.advproject.builder.exe.debug.1578879284" incrementalBuildTarget="all" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.crt.advproject.builder.exe.debug"/>
 							<tool id="com.crt.advproject.cpp.exe.debug.1456610024" name="MCU C++ Compiler" superClass="com.crt.advproject.cpp.exe.debug">
 								<option id="com.crt.advproject.cpp.hdrlib.1001121714" name="Library headers" superClass="com.crt.advproject.cpp.hdrlib" useByScannerDiscovery="false"/>
 								<option id="com.crt.advproject.cpp.fpu.1444631136" name="Floating point" superClass="com.crt.advproject.cpp.fpu" useByScannerDiscovery="true" value="com.crt.advproject.cpp.fpu.fpv5sp.hard" valueType="enumerated"/>
@@ -833,7 +833,7 @@
 					<folderInfo id="com.crt.advproject.config.exe.release.951545839." name="/" resourcePath="">
 						<toolChain id="com.crt.advproject.toolchain.exe.release.310500474" name="NXP MCU Tools" superClass="com.crt.advproject.toolchain.exe.release">
 							<targetPlatform binaryParser="org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.GNU_ELF" id="com.crt.advproject.platform.exe.release.1796285694" name="ARM-based MCU (Release)" superClass="com.crt.advproject.platform.exe.release"/>
-							<builder buildPath="${workspace_loc:/smart_lock_rt117f}/Release" id="com.crt.advproject.builder.exe.release.962647194" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="com.crt.advproject.builder.exe.release"/>
+							<builder buildPath="${workspace_loc:/sln_vizn3d_iot_smart_lock}/Release" id="com.crt.advproject.builder.exe.release.962647194" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="com.crt.advproject.builder.exe.release"/>
 							<tool id="com.crt.advproject.cpp.exe.release.1076287309" name="MCU C++ Compiler" superClass="com.crt.advproject.cpp.exe.release">
 								<option id="com.crt.advproject.cpp.thumb.1298699406" name="Thumb mode" superClass="com.crt.advproject.cpp.thumb" useByScannerDiscovery="false" value="true" valueType="boolean"/>
 								<option id="com.crt.advproject.cpp.specs.278648774" name="Specs" superClass="com.crt.advproject.cpp.specs" useByScannerDiscovery="false" value="com.crt.advproject.cpp.specs.newlibnano" valueType="enumerated"/>
@@ -1645,10 +1645,10 @@
 	</storageModule>
 	<storageModule moduleId="refreshScope" versionNumber="2">
 		<configuration configurationName="Debug">
-			<resource resourceType="PROJECT" workspacePath="/smart_lock"/>
+			<resource resourceType="PROJECT" workspacePath="/sln_vizn3d_iot_smart_lock"/>
 		</configuration>
 		<configuration configurationName="Release">
-			<resource resourceType="PROJECT" workspacePath="/smart_lock"/>
+			<resource resourceType="PROJECT" workspacePath="/sln_vizn3d_iot_smart_lock"/>
 		</configuration>
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
