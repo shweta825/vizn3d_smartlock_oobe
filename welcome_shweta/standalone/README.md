@@ -1,11 +1,23 @@
-# Standalone Welcome Shweta Smart Lock
+# Standalone SLN-VIZN3D-IOT Smart Lock Project
 
-This is a complete copy of the repository's `smart_lock` project, stored separately from the original `smart_lock` folder.
+This folder is a complete standalone copy of the original `smart_lock` MCUXpresso project.
 
-## Function change
-When the existing face-recognition result contains the registered name `Shweta`, the copied UI displays **Welcome Shweta**. Other recognized users retain the normal **Recognition Successful** message.
+## Modification
+The copied UI recognizes the existing face-recognition result name. If the registered name is exactly `Shweta`, the display shows:
 
-## Run on SLN-VIZN3D-IOT
-Open this folder as an MCUXpresso project, build with the same SDK/toolchain used by the original project, flash the generated image to the kit, register a face with the name `Shweta`, and test recognition.
+**Welcome Shweta**
 
-The original NXP source tree is not modified.
+All other recognized faces retain the original **Recognition Successful** message.
+
+## Open and build
+1. Open MCUXpresso IDE.
+2. Import the project from this `standalone` folder.
+3. Select the project and verify the MCU/SDK settings.
+4. Build the project.
+5. Connect the SLN-VIZN3D-IOT board.
+6. Flash/debug the generated image.
+7. Register a face with the name `Shweta`.
+8. Present the registered face and verify the LCD.
+
+## Safety of source
+The original NXP `smart_lock` directory and the original NXP repository are not modified by this standalone copy.
